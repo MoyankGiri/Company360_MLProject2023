@@ -4,6 +4,30 @@ Team Members:<br>
 1. Moyank Giri 12310830 M.Tech DSAI
 2. Aishika Nandi 12140120 B.Tech CSE
 
+## Introduction and Problem Motivation
+In recent years, there has been a significant shift in the priorities of working professionals
+while evaluating the potential employers. Factors such as work-life balance, organizational
+culture and values, diversity and inclusion, job security have become increasingly critical in
+addition to salary compensation. This shift is evident from the increasing turnover rates
+within companies, as individuals are now inclined to gain a more comprehensive understanding
+of their potential workplaces. The challenge lies in bridging the information gap,
+providing candidates with comprehensive insights into both the advantages and drawbacks
+of specific companies. This, in turn, enables them to make informed and strategic career
+decisions that promote long-term stability and job satisfaction.
+Our project endeavors to address this pressing need by creating a one-stop solution that
+caters to the uncertainties and lack of awareness that candidates often face when evaluating
+potential employers. We aim to achieve this through aspect-based analysis of the abundant
+information available online. This valuable data includes employee reviews sourced from
+various job portals, content from online platforms, news articles and transcripts from videos
+where employees provide insights into their day-to-day work experiences.
+Our solution goes beyond mere aggregation by employing sophisticated natural language
+processing and sentiment analysis techniques. This empowers us to not only summarize
+a company’s working conditions but also to delve into specific aspects that are frequently
+overlooked. By offering a data-driven, nuanced, and comprehensive view of prospective employers,
+our project aims to equip job seekers with the tools they need to make informed
+decisions. This, in turn, will foster a more transparent and accountable job market, benefitting
+both candidates and employers alike.
+
 ## Proposed solution approach
 The proposed solution includes majorly 3 modules:
 * Company Review Analysis
