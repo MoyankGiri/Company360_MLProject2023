@@ -76,7 +76,7 @@ Detailed module division is as shown below:
 | **Employee Work Life Analysis**    | Aishika Nandi                      | Web scraping, Feature Engineering, Trained and Pre-trained Summarization models |
 
 
-# File Structure
+## File Structure
 | File                                                      | Description                                                             |
 | --------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ReviewAnalysis/CompanyReviewsAnalysis.ipynb               | Company Reviews Webscraping, Company Reviews summarization results                     |
