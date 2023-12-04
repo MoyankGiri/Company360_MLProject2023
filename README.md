@@ -75,9 +75,10 @@ ReviewAnalysis/CompanyReviewABSA.ipynb -----> Company Reviews ABSA Results ( Moy
 NewsSummarization/NewsSummarizationModel.ipynb ----> Fine tuning GPT-2 for summarisation ( Moyank )
 NewsSummarization/NewsScraping_Summary.ipynb ----> Company News Reputation results ( Moyank )
 
-Employee_WorkLife_Analysis/EmployeeWorklifeAnalysis.ipynb ---> Web scraping, Summarization results of Quora Posts for getting insights on how a day in a company looks like ( Aishika )
 Employee_WorkLife_Analysis/Pre-Trained ----> Transformer Model for Summarization ( Aishika )
 Employee_WorkLife_Analysis/Trained ----> LSTM Model for Summarization ( Aishika )
+Employee_WorkLife_Analysis/EmployeeWorklifeAnalysis.ipynb ---> Web scraping, Summarization results of Quora Posts for getting insights on how a day in a company looks like ( Aishika )
+
 
 
 
