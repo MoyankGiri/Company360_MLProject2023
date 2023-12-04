@@ -66,20 +66,25 @@ decisions.
 news articles for current reputation and summarising personal experiences
 shared on various blogging sites, knowledge sharing platforms and video transcripts. .
 
-## Result Files
+## Contributions
+Detailed module division is as shown below:
 
-ReviewAnalysis/CompanyReviewsAnalysis.ipynb ----> Webscraping, Company Reviews summarization results ( Aishika )
-ReviewAnalysis/Machine_Learning_Methods_for_Aspect_Based_Sentiment_Analysis.ipynb ----> ABSA Model Training ( Moyank )
-ReviewAnalysis/CompanyReviewABSA.ipynb -----> Company Reviews ABSA Results ( Moyank )
-
-Employee_WorkLife_Analysis/Pre-Trained ----> Transformer Model for Summarization ( Aishika )
-Employee_WorkLife_Analysis/Trained ----> LSTM Model for Summarization ( Aishika )
-Employee_WorkLife_Analysis/EmployeeWorklifeAnalysis.ipynb ---> Web scraping, Summarization results of Quora Posts for getting insights on how a day in a company looks like ( Aishika )
-
-
-NewsSummarization/NewsSummarizationModel.ipynb ----> Fine tuning GPT-2 for summarisation ( Moyank )
-NewsSummarization/NewsScraping_Summary.ipynb ----> Company News Reputation results ( Moyank )
+| Task                               | Done by                           | Sub-tasks                                                          |
+| ---------------------------------- | --------------------------------- | ------------------------------------------------------------------ |
+| **Company Review Analysis**        | Moyank Giri, Aishika Nandi         | Moyank Giri: Aspect Extraction, Aspect Based Sentiment Analysis (ABSA)<br>Aishika Nandi: Web scrapping, Summarisation models |
+| **Company Reputation Analysis**    | Moyank Giri                        | Web-scrapping, Feature Engineering, Summarization Models (Pre-trained and Fine tuned) |
+| **Employee Work Life Analysis**    | Aishika Nandi                      | Web scraping, Feature Engineering, Trained and Pre-trained Summarization models |
 
 
-
-
+# File Structure
+| File                                                      | Description                                                             |
+| --------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ReviewAnalysis/CompanyReviewsAnalysis.ipynb               | Company Reviews Webscraping, Company Reviews summarization results                     |
+| ReviewAnalysis/Machine_Learning_Methods_for_Aspect_Based_Sentiment_Analysis.ipynb | Aspect Based Sentiment Analysis using Machine Learning Models         |
+| ReviewAnalysis/CompanyReviewABSA.ipynb                    | Company Reviews Aspect Based Sentiment Analysis Results                                            |
+| NewsSummarization/NewsSummarizationModel.ipynb            | Fine tuning GPT-2 for news summarisation (Extreme Abstractive Summarization)                                    |
+| NewsSummarization/NewsScraping_Summary.ipynb              | Company News Web Scraping, Company Reputation summarization results (Abstractive Summarization)                                         |
+| TextSummarizationSavedModels/                             | Company News Summarization fine-tuned model                             |
+| Employee_WorkLife_Analysis/Pre-Trained                    | Transformer Model for Abstractive Summarization                                      |
+| Employee_WorkLife_Analysis/Trained                        | LSTM Model for Abstractive Summarization                                             |
+| Employee_WorkLife_Analysis/EmployeeWorklifeAnalysis.ipynb | Web scraping, Summarization results of Quora Posts for insights         |
