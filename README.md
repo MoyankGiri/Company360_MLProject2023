@@ -66,6 +66,8 @@ decisions.
 news articles for current reputation and summarising personal experiences
 shared on various blogging sites, knowledge sharing platforms and video transcripts. .
 
+### For more details, please refer the [Project Report](https://github.com/MoyankGiri/Company360_MLProject2023/blob/main/Assets/FinalReport.pdf)
+
 ## Contributions
 Detailed module division is as shown below:
 
